@@ -1,0 +1,21 @@
+h1 {
+      color: blue;
+      text-align: center;  
+}
+p {
+      font-size: 20px;
+      color: green;
+      text-align: center;
+}
+img {
+      width: 300px;
+      height: 200px;
+      margin: 20px auto;
+}
+a {
+      display: block;
+      text-align: center;
+      color: red;
+      font-size: 18px;
+      text-decoration: none;
+}
