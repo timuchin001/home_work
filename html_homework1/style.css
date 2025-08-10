@@ -1,0 +1,18 @@
+
+.red {
+   background-color: rgba(255, 0, 0, 0.577);
+   width: 100px;
+   height: 100px;
+}.bash {
+   background-color: #443131a1;
+}
+.pur {
+   color: purple;
+}
+.element {
+   background-color: #632c854e;
+   width: 300px;
+}
+.elem {
+   background-color: #632c85;
+}
