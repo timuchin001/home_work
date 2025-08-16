@@ -25,6 +25,7 @@
    text-transform: uppercase;
 }
 .sometext4 {
+   font-size: 30px;
    font-family: serif;
    font-style: 20px;
    font-weight: normal;
@@ -32,8 +33,6 @@
    word-spacing: 30px;
    text-decoration: wavy overline rgba(85, 7, 220, 0.79);
    color: rgba(85, 7, 220, 0.79);
-
-
 }
 .somtext5 {
    font-family: serif;
