@@ -698,7 +698,7 @@
       text-align: center;
       gap: 0;
    }
-   .footer__col:last-child {
+   .footer__col:first-child {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -793,7 +793,7 @@
    .main__testimomials {
       padding: 0 0 80px;
    }
-   .tittle {
+   .title {
       font-size: 12vw;
    }
 /* ======= */
