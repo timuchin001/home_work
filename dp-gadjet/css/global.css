@@ -3,9 +3,11 @@
    --borderradius: 20px;
    --font-family: "Inter", sans-serif;
    --second-family: "Readex Pro", sans-serif;
-   --transition: all .4s;
 }
-
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 5vw;
+}
 body {
    font-family: var(--font-family);
    font-weight: 400;
@@ -13,6 +15,10 @@ body {
    line-height: 1.2;
    background: #ffffff;
    color: #000;
+}
+main {
+   flex-grow: 1;
+   height: 100%;
 }
 .button {
    border-radius: 11vh;
@@ -30,10 +36,7 @@ body {
    line-height: 1.29;
    margin-bottom: 31px;
 }
-main {
-   flex-grow: 1;
-   height: 100%;
-}
+
 
 .main {
    width: 100%;
@@ -42,7 +45,6 @@ main {
 .wrapper {
    min-height: 100%;
    width: 100%;
-   overflow: hidden;
    display: flex;
    flex-direction: column;
 }
