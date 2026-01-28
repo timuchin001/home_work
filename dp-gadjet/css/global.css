@@ -1,0 +1,65 @@
+:root {
+   --transition: all .4s;
+   --borderradius: 20px;
+   --font-family: "Inter", sans-serif;
+   --second-family: "Readex Pro", sans-serif;
+   --transition: all .4s;
+}
+
+body {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2;
+   background: #ffffff;
+   color: #000;
+}
+.button {
+   border-radius: 11vh;
+   text-align: center;
+   width: 100%;
+   padding: 14px;
+   background: #00000000;
+   box-shadow: 0 0 0 1px #000000;
+}
+.text {
+   text-align: center;
+   align-items: center;
+   font-family: var(--second-family);
+   font-size: 13px;
+   line-height: 1.29;
+   margin-bottom: 31px;
+}
+main {
+   flex-grow: 1;
+   height: 100%;
+}
+
+.main {
+   width: 100%;
+   margin: 0 auto;
+}
+.wrapper {
+   min-height: 100%;
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+.container {
+   max-width: 1330px;
+   margin: 0 auto;
+   height: 100%;
+   padding: 0 30px;
+}
+.title {
+   align-items: center;
+   text-align: center;
+   font-size: 42px;
+   line-height: 1.25;
+   margin-bottom: 9px;
+}
+
+.body--opened-menu{
+   overflow: hidden;
+}

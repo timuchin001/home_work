@@ -1,0 +1,230 @@
+.header{
+   margin-bottom: 56px;
+}
+.header__menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0 30px;
+}
+
+.nav__item {
+   display: flex;
+   gap: 34px;
+   text-transform: uppercase;
+   z-index: 1;
+}
+.header__nav-submenu {
+   display: flex;
+   gap: 5px;
+}
+.nav-link {
+   display: flex;
+   text-align: center;
+   text-decoration: none;
+   align-items: center;
+   margin: 0 auto;
+}
+.div__icon {
+   display: flex;
+   gap: 13px;
+}
+/* ============================= */
+
+.nav__list {
+   display: flex;
+   gap: 4vh 34px;
+}
+
+/* ============================= */
+   .burger__icon{
+   display: none;
+   text-align: center;
+   width: 50px;
+   align-items: center;
+   justify-content: center;
+   z-index: 15;
+}
+.burger__icon span,
+.burger__icon span::before,
+.burger__icon span::after {
+   display: block;
+   width: 25px;
+   height: 3px;
+   border-radius: 100px;
+   background-color: black;
+   transition: var(--transition) ;
+}
+.burger__icon span {
+   position: relative;
+   left: 12px;
+} 
+
+.burger__icon span::before,
+.burger__icon span::after {
+   content: '';
+   position: absolute;
+}
+.burger__icon span::before {
+   top: -8px;
+}
+.burger__icon span::after {
+   bottom: -8px;
+}
+.body--opened-menu .burger__icon span {
+   background-color: transparent;
+}
+.body--opened-menu .burger__icon span::before {
+   transform: rotate(45deg);
+   top: 0;
+}
+.body--opened-menu .burger__icon span::after {
+   top: 0;
+   transform: rotate(-45deg);
+}
+/* =========+++===+=====+==+==+==++ */
+.header__content {
+   border-radius: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__content_item {
+   display: flex;
+   justify-content: space-between;
+   background: rgb(220 229 226);
+   align-items: center;
+   border-radius: 30px;
+}
+.header__content-img {
+   width: 100%;
+   margin-bottom: -1.2%;
+}
+.header_content-title {
+   margin: 0 0 0 27px;
+   max-width: 588px;
+   right: 40px;
+}
+.header__title {
+   font-family: 'readexpro';
+   font-size: 55px;
+   margin: 20px 0 19px 23px;
+   text-align: left;
+}
+.header__text {
+   max-width: 565px;
+   margin: 0 0 30px 23px;
+   font-size: 16px;
+   line-height: 19.2px;
+}
+
+.header__button {
+   margin: 0 0 48px 23px;
+   background: rgb(220 229 226);
+   width: 170px;
+   transition: var(--transition);
+}
+.header__button:hover {
+   background: rgba(101, 129, 130, 0.686);
+   box-shadow:  0 1px 1px 1px #000000;
+   color: aliceblue;
+}
+
+/* ===================== */
+
+.slider {
+   position: relative;
+   width: 100%;
+   margin: 0 auto;
+   max-height: 550px;
+   overflow: hidden;
+}
+
+.slider__viewport {
+   overflow: hidden;
+   width: 100%;
+}
+
+.slider__track {
+   display: flex;
+   transition: transform 0.4s ease;
+}
+
+.slider__slide {
+   min-width: 100%;
+   background: #dce5e2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 16px;
+}
+
+/* КНОПКИ */
+.slider__btn {
+   width: 14px;
+   height: 26px;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 5;
+   background: fixed;
+}
+.slider__btn img {
+   width: 100%;
+}
+.slider__btn--prev {
+   left: 16px;
+}
+
+.slider__btn--next {
+   right: 16px;
+}
+/* ======================== */
+.progress-container1 {
+   position: absolute;
+   display: flex;
+   gap: 34px;
+   margin-top: -34px;
+   max-width: 1294px;
+   justify-content: center;
+   width: 100%;
+   padding: 0 226px;
+}
+
+.progress-container1 > div {
+   width: 194px;
+   height: 3px;
+   background: rgba(0, 0, 0, 0.477);
+   overflow: hidden;
+   position: relative;
+}
+
+.progress-container1 > div::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 0%;
+   background: #000;
+   transition: width 0.4s ease;
+}
+
+.progress-container1 > .active::after {
+   width: 100%;
+}
+/* ======================== */
+.slider__viewport {
+   overflow: hidden;
+}
+
+.slider__track {
+   display: flex;
+   transition: transform 0.4s ease;
+}
+
+.slider__slide {
+   min-width: 100%;
+}
+
